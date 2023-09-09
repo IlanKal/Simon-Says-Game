@@ -1,0 +1,179 @@
+body {
+  text-align: center;
+  background-color: #272829;
+  font-family: 'Press Start 2P', cursive;
+  color: #D8D9DA
+}
+
+/* Game page*/
+#level-title, #highest-score-title{
+  font-size: 3rem;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px #00f; 
+}
+
+#highest-score-title{
+  font-size: 1.5rem;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 20px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border: 10px solid #D8D9DA;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/* Openning page */
+#title {
+  font-family: 'Press Start 2P', cursive; 
+  font-size: 48px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px #00f; 
+}
+
+#red {
+  color: #FF4136;
+}
+
+#green {
+  color: #2ECC40; 
+}
+
+#blue {
+  color: #0074D9; 
+}
+
+#yellow {
+  color: #FFDC00; 
+}
+
+#second-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 24px;
+  
+  color: #fff;
+  text-shadow: 2px 2px 4px #00f;
+}
+
+p {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f00; 
+  color: #fff; 
+  font-family: 'Press Start 2P', cursive;
+  font-size: 24px;
+  text-decoration: none;
+  border: 2px solid #00f; 
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#button-link:hover {
+  background-color: #00f; 
+  transform: scale(1.05); 
+}
+
+#credit {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/*
+@media (max-width: 768px) {
+  body {
+    font-size: 18px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+  }
+
+  #title {
+    font-size: 36px; 
+    margin-bottom: 20px;
+  }
+
+  #second-title {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  #button-link {
+    font-size: 18px; 
+  }
+
+  #credit {
+    font-size: 12px; 
+  }
+
+
+
+
+
+.btn {
+  margin: 10px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border: 10px solid #D8D9DA;
+  border-radius: 20%;
+}
+
+}
+
+*/
